@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Titles;
+    src: url(../fonts/Italiana-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Apartados;
+    src: url(../fonts/Jaldi-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Texts;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+:root{
+    --Fuerte: #664187;
+    --Bajo: #c3acd0;
+    --Beige: #F7EFE5;
+    --blanco: #FFFBF5;
+    --gris:#D9D9D9;
+    --fsize: 16px;
+
+}
+
+/*General*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    
+   
+}
+
+header{
+    width: 100%;
+    padding: 3vh;
+    position: fixed;
+    text-align: right ;
+    background-color: var(--Fuerte) ;
+    color:var(--blanco);
+    box-shadow: 0 7px 15px var(--Fuerte);
+    
+
+}
+header h1{
+    text-align: left;
+    margin-bottom: -12px;
+    margin-top: 10px;
+}
+#texto{
+    font-family: Titles;
+    margin-left: 100px;
+    
+}
+#perso{
+   margin-left: 100px;
+   position: fixed;
+   margin-top: 10px;
+   font-family: Apartados;
+}
+
+#ul{
+    font-family: Apartados;
+    margin-inline-end: 50px;
+    font-size: large;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    margin-left: 50px;
+    padding: 1vh;
+    text-decoration: none ;
+    font-weight: bolder;
+    color:var(--base);
+    font-size:1em ;
+    border-radius:0% ;
+    transition: background-color 1s, color 0.5s;
+
+}
+
+nav ul li a:hover{
+    background-color: var(--Bajo);
+    color: var(--Fuerte);
+}
+
+ nav ul li #cajaIn{
+    
+    border: solid rgb(63, 1, 63) 3px;
+}
+nav ul li #cajaIn:hover{
+    
+    border: solid var(--Bajo) 3px;
+}
+
+.logo{
+    position:fixed;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+
+main{
+    
+    justify-content: center;
+    padding-top: 25vh;
+    
+}
+
+#inicio{
+    text-align: center;
+    margin: 5%;
+}
+
+/*Boton subida*/
+#btnUp{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    font-size: 30px;
+    color: var(--Fuerte);
+    background-color: var(--Bajo);
+    border-radius: 50px;
+  }
+  #btnUp:hover{
+    cursor: pointer;
+    box-shadow: 0 7px 15px var(--complementary);
+  }
+footer{
+    width: 100%;
+    padding: 3vh;
+    text-align:center;
+    background-color:var(--Bajo);
+ 
+    
+}
+footer p{
+    font-size: var(--fsize);
+    
+}
