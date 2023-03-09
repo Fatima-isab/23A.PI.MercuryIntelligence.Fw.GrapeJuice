@@ -2,26 +2,31 @@
     font-family: Titles;
     src: url(../fonts/Italiana-Regular.ttf);
     font-weight: bold;
+
 }
 
 @font-face {
     font-family: Apartados;
     src: url(../fonts/Jaldi-Regular.ttf);
     font-weight: bold;
+
 }
 
 @font-face {
     font-family: Texts;
-    src: url(../fonts/Roboto-Thin.ttf);
+    src: url(../fonts/IstokWeb-Regular.ttf);
+
 }
+
 :root{
     --Fuerte: #664187;
     --Bajo: #c3acd0;
     --Beige: #F7EFE5;
     --blanco: #FFFBF5;
     --gris:#D9D9D9;
-    --fsize: 16px;
-
+    --fsizeContenido: 22px;
+    --fsizesubtitulos:26px;
+    
 }
 
 /*General*/
@@ -114,10 +119,42 @@ main{
     
 }
 
+#portada{
+
+    text-align: center;
+}
+#titulo{
+
+    font-size: 100px;
+    font-family: Titles;
+    font-style:bold;
+}
+#equipo{
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: Titles;
+}
+#todo{
+    background-color: rgba(205, 219, 224, 0.301);
+}
+#conocenos{
+    text-align: center;
+}
+.info{
+   
+    display: flex;
+    justify-content: space-around;
+          
+}
+.info .objetivo{
+    background-color: rgb(227, 223, 223);
+}
+
 #inicio{
     text-align: center;
     margin: 5%;
 }
+
 
 /*Boton subida*/
 #btnUp{
