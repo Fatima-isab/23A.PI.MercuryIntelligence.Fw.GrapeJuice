@@ -1,0 +1,143 @@
+#tipo{
+    text-align: center;
+    color:coral;
+    font-size: 50px;
+    font-family:fantasy;
+}
+#pTipo{
+    text-align: center;
+    color: rgb(60, 37, 160);
+    font-size: 22px;
+}
+
+#Tipografia {
+    text-align: center;
+    background-color: rgba(205, 219, 224, 0.301);
+    margin: 15px;
+}
+
+#Tipografia2 {
+    text-align: center;
+    background-color: rgba(205, 219, 224, 0.301);
+    margin: 15px;
+}
+
+#bold{
+    font-style: bold;
+    color: black;
+}
+
+#Tipografia3 {
+    text-align: center;
+    background-color: rgba(205, 219, 224, 0.301);
+    margin: 15px;
+}
+
+#color1 {
+    color: Blue;
+}
+
+#letras {
+    color: red;
+}
+
+#letras2 {
+    color: yellowgreen;
+}
+#conte{
+    text-align: center;
+    color:coral;
+    font-size: 50px;
+    font-family:fantasy;
+}
+
+#head{
+    text-align:left;
+    font-size: 35px;
+    color: cornflowerblue;
+    margin-left: 60px;
+}
+#pHead{
+    text-align: center;
+    color: rgb(60, 37, 160);
+    font-size: 22px;
+}
+#headers{
+    text-align: center;
+   width: 70vw;
+   margin-left: 14%;
+   
+}
+#head1{
+    background-color: red;
+    height: 120px;
+   
+}
+#head2{
+    background-color: rgb(0, 255, 42);
+    height: 100px;
+   
+}
+#head3{
+    background-color: rgb(0, 174, 255);
+    height: 80px;
+   
+}
+#head4{
+    background-color: rgb(17, 0, 255);
+    height: 65px;
+   
+}
+#head5{
+    background-color: rgb(255, 0, 140);
+     height: 40px;
+   
+}
+#sidebar{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: 6%;
+    height: 90vh;
+}
+#side1{
+    background-color: red;
+    width: 20vw;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align:center;
+    font-size: 25px;
+    
+}
+#side2{
+    background-color:yellow ;
+    width: 17vw;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align:center;
+    font-size: 25px;
+}
+#side3{
+    background-color:blue ;
+    width: 14vw;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align:center;
+    font-size: 25px;
+}
+#side4{
+    background-color:green ;
+    width: 11vw;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align:center;
+    font-size: 25px;
+}
+#side5{
+    background-color:pink ;
+    width: 8vw;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align:center;
+    font-size: 25px;
+}
