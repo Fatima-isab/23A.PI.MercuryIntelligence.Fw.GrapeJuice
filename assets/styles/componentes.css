@@ -1,3 +1,45 @@
+@font-face {
+    font-family: Titles;
+    src: url(../fonts/Italiana-Regular.ttf);
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: Apartados;
+    src: url(../fonts/Jaldi-Bold.ttf);
+    font-weight: bold;
+
+}
+@font-face {
+    font-family: Apartado;
+    src: url(../fonts/Jaldi-Regular.ttf);
+    
+
+}
+
+@font-face {
+    font-family: Subtitulos;
+    src: url(../fonts/IstokWeb-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: Texts;
+    src: url(../fonts/IstokWeb-Regular.ttf);
+
+}
+
+:root{
+    --Fuerte: #664187;
+    --Bajo: #c3acd0;
+    --Beige: #F7EFE5;
+    --blanco: #FFFBF5;
+    --gris:#D9D9D9;
+    --fsizeContenido: 22px;
+    --fsizesubtitulos:26px;
+    
+}
 #tipo{
     text-align: center;
     color:coral;
@@ -12,14 +54,16 @@
 
 #Tipografia {
     text-align: center;
-    background-color: rgba(205, 219, 224, 0.301);
-    margin: 15px;
+    background-color: var(--gris);
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 #Tipografia2 {
     text-align: center;
-    background-color: rgba(205, 219, 224, 0.301);
-    margin: 15px;
+    background-color: var(--gris);
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 #bold{
@@ -29,8 +73,9 @@
 
 #Tipografia3 {
     text-align: center;
-    background-color: rgba(205, 219, 224, 0.301);
-    margin: 15px;
+    background-color: var(--gris);
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 #color1 {
