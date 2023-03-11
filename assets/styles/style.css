@@ -116,6 +116,12 @@ nav ul li #cajaIn:hover{
     
     border: solid var(--Bajo) 3px;
 }
+ .btnMenu{
+   margin-left: 15px;
+   height: 200px;
+   width: 200px;
+   background-color: red;
+}
 
 .logo{
     position:fixed;
