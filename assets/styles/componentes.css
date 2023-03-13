@@ -42,15 +42,11 @@
 }
 #tipo{
     text-align: center;
-    color:coral;
+    color:var(--Fuerte);
     font-size: 50px;
     font-family:fantasy;
 }
-#pTipo{
-    text-align: center;
-    color: rgb(60, 37, 160);
-    font-size: 22px;
-}
+
 
 #Tipografia {
     text-align: center;
@@ -89,22 +85,17 @@
 #letras2 {
     color: yellowgreen;
 }
-#conte{
-    text-align: center;
-    color:coral;
-    font-size: 50px;
-    font-family:fantasy;
-}
 
-#head{
+#sub{
     text-align:left;
     font-size: 35px;
+    font-family: Subtitulos;
     color: cornflowerblue;
     margin-left: 60px;
 }
 #pHead{
+  font-family: Texts;
     text-align: center;
-    color: rgb(60, 37, 160);
     font-size: 22px;
 }
 #headers{
@@ -312,3 +303,156 @@
     color: #009900;
   }
   
+/*Botones*/
+.botones{
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.redondoBtn{
+  margin: 2px;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.cuadradoBtn{
+  margin: 2px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+#redondoAzul{
+  background-color: #74b3dd;
+}
+#redondoAzul:hover{ 
+  background-color: #054394;
+  color: #ffffff;
+}
+#redondoMorado{
+  background-color: #a16bab;
+}
+#redondoMorado:hover{ 
+  background-color: #530e7e;
+  color: #ffffff;
+}
+#redondoRosa{
+  background-color: #e9a0bd;
+}
+#redondoRosa:hover{ 
+  background-color: #e10fb0;
+  color: #ffffff;
+}
+#redondoAmarillo{
+  background-color: #e9f289;
+}
+#redondoAmarillo:hover{ 
+  background-color: #f6ef17;
+  color: #ffffff;
+}
+#redondoRojo{
+  background-color: #f1495f;
+}
+#redondoRojo:hover{ 
+  background-color: #c70808;
+  color: #ffffff;
+}
+#redondoNaranja{
+  background-color: #dc9051;
+}
+#redondoNaranja:hover{ 
+  background-color: #e0643a;
+  color: #ffffff;
+}
+#redondoVerde{
+  background-color: #75c670;
+}
+#redondoVerde:hover{ 
+  background-color: #247e16;
+  color: #ffffff;
+}
+
+#cuadradoUno{
+  background-color: #fff;
+  border:1px solid orangered;
+  color: orangered;
+}
+#cuadradoUno:hover{ 
+  background-color: orangered;
+  color: #ffffff;
+}
+#cuadradoDos{
+  background-color: palegreen;
+  border: 0;
+  
+}
+#cuadradoDos:hover{ 
+  background-color: rgb(76, 241, 76);
+  color: #ffffff;
+}
+#cuadradoTres{
+  background-color: #fff;
+  border:1px solid orangered;
+  color: orangered;
+}
+#cuadradoTres:hover{ 
+  background-color: orangered;
+  color: #ffffff;
+}
+#cuadradoCuatro{
+  background-color: #fff;
+  border:1px solid orangered;
+  color: orangered;
+}
+#cuadradoCuatro:hover{ 
+  background-color: orangered;
+  color: #ffffff;
+}
+#cuadradoCinco{
+  background-color: #fff;
+  border:1px solid orangered;
+  color: orangered;
+}
+#cuadradoCinco:hover{ 
+  background-color: orangered;
+  color: #ffffff;
+}
+#cuadradoSeis{
+  background-color: #fff;
+  border:1px solid orangered;
+  color: orangered;
+}
+#cuadradoSeis:hover{ 
+  background-color: orangered;
+  color: #ffffff;
+}
+#cuadradoSiete{
+  background-color: #fff;
+  border:1px solid orangered;
+  color: orangered;
+}
+#cuadradoSiete:hover{ 
+  background-color: orangered;
+  color: #ffffff;
+}
+
