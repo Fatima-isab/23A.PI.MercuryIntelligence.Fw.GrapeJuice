@@ -462,7 +462,6 @@
   padding-left: 10%;
   padding-right: 10%;
   text-align: center;
-  border-radius: 7px;
   font-size: 30px;
 }
 .alert .icon-cross{
@@ -480,23 +479,40 @@
 .alert .icon-cross:hover{
   cursor: pointer;
 }
-.oculto{
-  display:block;
-}
 #alert1{
   background-color:rgba(128, 0, 128, 0.829);
+  border-radius: 7px;
+}
+#alert1:hover{
+  transform: scale(1.01,1.1);
 }
 #alert2{
   background-color: rgba(155, 13, 155, 0.719);
+  border-radius: 7px;
+}
+#alert2:hover{
+  transform: scale(1.01,1.1);
 }
 #alert3{
   background-color: rgba(138, 11, 138, 0.493);
+  border-radius: 7px;
+}
+#alert3:hover{
+  transform: scale(1.01,1.1);
 }
 #alert4{
   background-color:rgba(206, 38, 206, 0.795);
+  border-radius: 7px;
+}
+#alert4:hover{
+  transform: scale(1.01,1.1);
 }
 #alert5{
   background-color:rgba(255, 40, 255, 0.945);
+  border-radius: 7px;
+}
+#alert5:hover{
+  transform: scale(1.01,1.1);
 }
 
 
