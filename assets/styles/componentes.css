@@ -251,26 +251,33 @@
 
   #parrafo1{
     text-align: left;
-    background-color: var(--Bajo);
+    background-color: var(--gris);
     border-radius: 8px;
     margin-left: 12%;
     margin-right: 12%;
+    font-size: 22px;
   }
 
   #parrafo2{
     text-align: center;
-    background-color: var(--Bajo);
+    background-color: var(--gris);
     border-radius: 8px;
     margin-left: 12%;
     margin-right: 12%;
+    font-size: 22px;
   }
 
   #parrafo3{
     text-align: right;
-    background-color: var(--Bajo);
+    background-color: var(--gris);
     border-radius: 8px;
     margin-left: 12%;
     margin-right: 12%;
+    font-size: 22px;
+  }
+
+  #p1, #p2, #p3{
+    text-align: center;
   }
 
 #lista{
@@ -302,6 +309,11 @@
   .checklist input[type="checkbox"]:checked + label:before {
     color: #009900;
   }
+
+  .subrayar {
+    text-decoration: line-through;
+    color: red;
+}
   
 /*Botones*/
 .botones{
@@ -514,5 +526,3 @@
 #alert5:hover{
   transform: scale(1.01,1.1);
 }
-
-
