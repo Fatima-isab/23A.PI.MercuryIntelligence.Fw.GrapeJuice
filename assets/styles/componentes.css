@@ -186,3 +186,129 @@
     text-align:center;
     font-size: 25px;
 }
+
+#Label1{
+    text-align: left;
+    background-color: var(--gris);
+    margin-left: 12%;
+    margin-right: 12%; 
+}
+
+
+.rectangulo1 {
+    width: 825px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 10px;
+  }
+
+  .rectangulo2 {
+    width: 870px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 10px;
+  }
+
+  .rectangulo3 {
+    width: 890px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    float: right; 
+    margin-right: 10px; 
+  }
+
+  .rectangulo4 {
+    width: 900px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 10px;
+  }
+
+  .label {
+    display: -moz-box;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+ 
+  .seleccion {
+    padding: 5px;
+    border: 1px solid #e969e2;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  #lab{
+    background-color: var(--gris);
+    margin-left: 12%;
+    margin-right: 12%; 
+    height: 8vw;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .opciones{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 200px;
+    height: 150px;
+  }
+
+  #parrafo1{
+    text-align: left;
+    background-color: var(--Bajo);
+    border-radius: 8px;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  #parrafo2{
+    text-align: center;
+    background-color: var(--Bajo);
+    border-radius: 8px;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  #parrafo3{
+    text-align: right;
+    background-color: var(--Bajo);
+    border-radius: 8px;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+#lista{
+    text-align: center;
+    font-size: 25px;
+}
+
+  .checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .checklist li {
+    margin: 10px 0;
+  }
+  
+  .checklist input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checklist label:before {
+    content: "\2714";
+    font-size: 25px;
+    color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .checklist input[type="checkbox"]:checked + label:before {
+    color: #009900;
+  }
+  
