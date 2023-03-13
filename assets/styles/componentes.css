@@ -456,3 +456,47 @@
   color: #ffffff;
 }
 
+/*Alertas */
+
+.alert{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 30px;
+}
+.alert .icon-cross{
+  position: relative;
+    float: right;
+    top: 2vh;
+    right: 2vh;
+    padding: 5px;
+    text-align: center;
+
+    
+    border-radius: 50%;
+    font-size: 10px;
+}
+.alert .icon-cross:hover{
+  cursor: pointer;
+}
+.oculto{
+  display:block;
+}
+#alert1{
+  background-color:rgba(128, 0, 128, 0.829);
+}
+#alert2{
+  background-color: rgba(155, 13, 155, 0.719);
+}
+#alert3{
+  background-color: rgba(138, 11, 138, 0.493);
+}
+#alert4{
+  background-color:rgba(206, 38, 206, 0.795);
+}
+#alert5{
+  background-color:rgba(255, 40, 255, 0.945);
+}
+
+
