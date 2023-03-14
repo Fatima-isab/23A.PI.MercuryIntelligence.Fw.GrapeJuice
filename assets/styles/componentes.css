@@ -236,10 +236,6 @@
   }
 
   #lab{
-    background-color: var(--gris);
-    margin-left: 12%;
-    margin-right: 12%; 
-    height: 13vw;
     text-align: center;
     font-size: 25px;
   }
@@ -536,3 +532,81 @@
 #alert5:hover{
   transform: scale(1.01,1.1);
 }
+
+
+/* Imagenes */
+.imagen {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+  width: 40%; 
+}
+
+#responsiva{
+  background-color: var(--gris);
+  border-radius: 8px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.imagen2 {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+  width: 30%;
+  animation: giro 5s linear infinite;
+}
+
+@keyframes giro {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.imagen3 {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+  width: 30%;
+  margin-top: 100px;
+  animation: desvanecer 5s linear infinite;
+}
+
+@keyframes desvanecer {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.imagen4 {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+  width: 30%;
+  animation: slide-in 2s linear infinite;
+  margin-top: 100px;
+}
+
+@keyframes slide-in {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}
+
+.animada{
+  background-color: var(--gris);
+  border-radius: 8px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+
