@@ -70,6 +70,17 @@ header h1{
     margin-bottom: -12px;
     margin-top: 10px;
 }
+aside{
+    width: 15vw;
+    padding: 10vh;
+    top: 18%;
+    left: 60%;
+    bottom: 1%;
+    position:fixed;
+    background-color:var(--Bajo);
+    border-radius: 5px;
+    
+}
 #texto{
     font-family: Titles;
     margin-left: 100px;
@@ -217,6 +228,41 @@ footer{
 footer p{
     font-size: var(--fsize);
     
+}
+
+
+
+/*Media Queries*/
+
+/*Desktop*/
+@media screen and (min-width: 1000px ) {
+    .icon-menu{
+        display: none;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 720px) and (max-width: 1000px){
+    #perso, #texto{
+        display: none;
+    }
+    main{
+        display:flexbox;
+    }
+    
+}
+
+/*Moviles*/
+@media screen and (max-width: 720px){
+    #perso, #texto{
+        display: none;
+    }
+    #logo{
+        display: none;
+    }
+    main{
+        display:flexbox;
+    }
 }
 
 

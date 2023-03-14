@@ -26,7 +26,6 @@
     })
 
     });
-
     hideBtn1.addEventListener("click", () => {
         alert1.remove();
     });
@@ -42,5 +41,8 @@
     hideBtn5.addEventListener("click", () => {
         alert5.remove();
     });
-    
+   
 })();
+
+
+

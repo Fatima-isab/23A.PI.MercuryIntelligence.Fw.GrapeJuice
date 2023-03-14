@@ -224,18 +224,22 @@
     font-weight: bold;
   }
  
-  .seleccion {
+  select {
+    background-color: var(--Bajo);
+    color: #000000;
+    font-family: Apartados;
+    border: 1px solid var(--Beige);
     padding: 5px;
-    border: 1px solid #e969e2;
-    border-radius: 5px;
-    font-size: 16px;
+    width: 200px;
+    border-radius: 8px;
+
   }
 
   #lab{
     background-color: var(--gris);
     margin-left: 12%;
     margin-right: 12%; 
-    height: 8vw;
+    height: 13vw;
     text-align: center;
     font-size: 25px;
   }
@@ -251,26 +255,33 @@
 
   #parrafo1{
     text-align: left;
-    background-color: var(--Bajo);
+    background-color: var(--gris);
     border-radius: 8px;
     margin-left: 12%;
     margin-right: 12%;
+    font-size: 22px;
   }
 
   #parrafo2{
     text-align: center;
-    background-color: var(--Bajo);
+    background-color: var(--gris);
     border-radius: 8px;
     margin-left: 12%;
     margin-right: 12%;
+    font-size: 22px;
   }
 
   #parrafo3{
     text-align: right;
-    background-color: var(--Bajo);
+    background-color: var(--gris);
     border-radius: 8px;
     margin-left: 12%;
     margin-right: 12%;
+    font-size: 22px;
+  }
+
+  #p1, #p2, #p3{
+    text-align: center;
   }
 
 #lista{
@@ -302,6 +313,11 @@
   .checklist input[type="checkbox"]:checked + label:before {
     color: #009900;
   }
+
+  .subrayar {
+    text-decoration: line-through;
+    color: red;
+}
   
 /*Botones*/
 .botones{
@@ -412,12 +428,18 @@
 }
 #cuadradoTres{
   background-color: #fff;
-  border:1px solid orangered;
-  color: orangered;
+  border:1px solid black ;
+  color: rgb(255, 0, 195);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 0, 195);
+  transition: box-shadow 0.3s ease;
+
 }
 #cuadradoTres:hover{ 
-  background-color: orangered;
-  color: #ffffff;
+  box-shadow: 0px 0px 20px rgb(255, 0, 195);
+
 }
 #cuadradoCuatro{
   background-color: #fff;
@@ -514,5 +536,3 @@
 #alert5:hover{
   transform: scale(1.01,1.1);
 }
-
-
