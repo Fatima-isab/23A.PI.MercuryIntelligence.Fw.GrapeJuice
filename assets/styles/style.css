@@ -151,16 +151,19 @@ main{
 .portada{
     width: 100%;
     height: 82vh;
-    background: linear-gradient(160deg,rgb(189, 106, 219),rgba(91, 36, 111, 0.65),rgb(37, 0, 42),rgb(38, 1, 42));
+    background: linear-gradient(160deg,rgba(215, 138, 243, 0.884),rgba(125, 49, 153, 0.973),rgba(62, 4, 70, 0.842),rgba(80, 5, 88, 0.829));
     background-size: 300% 300%;
     position:flex;
     text-align: center;
-    animation: fondoPortada 12s ease infinite;
+    animation: fondoPortada 7s ease infinite;
 }
 @keyframes fondoPortada{
     0%{background-position: 0 50%;}
     50%{background-position: 100% 50%;}
     100%{background-position: 0 50%;}
+}
+#logoEquipo{
+    text-align: center;
 }
 #titulo{
     text-align: center;
@@ -173,10 +176,8 @@ main{
     margin-top: 40px;
     font-family: Titles;
 }
-#todo{
-    margin-top: 10%;
-    font-family: Subtitulos;
-    background-color: rgba(205, 219, 224, 0.301);
+#imagen{
+    margin-top: 14px;
 }
 #conocenos{
     font-family:Subtitulos;
@@ -186,15 +187,39 @@ main{
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
+    margin-top: 3%;
+    font-family: Subtitulos;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
           
 }
 .info .objetivo, .mision, .vision{
     font-family: Subtitulos;
     text-align: center;
     border: solid rgb(63, 1, 63) 3px;
+    width: 23%;
+    border-radius: 10px;
+    background-color: #66418742;
+    
 }
+.info .objetivo:hover, .mision:hover, .vision:hover{
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(95, 93, 93, 0.911);
+}
+
 #parrafo{
     font-family: Texts;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#parrafo1{
+    font-family: Texts;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 #inicio{
