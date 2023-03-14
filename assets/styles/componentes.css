@@ -41,62 +41,75 @@
     
 }
 #tipo{
+  justify-content: center;
     text-align: center;
     color:var(--Fuerte);
     font-size: 50px;
     font-family:fantasy;
 }
 
-
+.container{
+  justify-content: center;
+  background-color: var(--gris);
+  border: 3px solid var(--Fuerte);
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
 #Tipografia {
     text-align: center;
-    background-color: var(--gris);
-    margin-left: 12%;
-    margin-right: 12%;
+    font-family: Apartado;
 }
 
 #Tipografia2 {
     text-align: center;
-    background-color: var(--gris);
-    margin-left: 12%;
-    margin-right: 12%;
+    font-family: Apartados;
 }
 
-#bold{
-    font-style: bold;
-    color: black;
-}
 
 #Tipografia3 {
     text-align: center;
-    background-color: var(--gris);
-    margin-left: 12%;
-    margin-right: 12%;
+    font-family: Apartado;
 }
 
-#color1 {
+#colorLetras{
     color: Blue;
 }
 
-#letras {
+#cHu{
     color: red;
 }
-
-#letras2 {
-    color: yellowgreen;
+#cHd{
+  color: rgb(255, 255, 0);
 }
+#cHt{
+  color: purple;
+}
+#cHc{
+  color: peru;
+}
+#cHci{
+  color: palevioletred;
+}
+#cHs{
+  color: green;
+}
+
+
+
 
 #sub{
-    text-align:left;
+    text-align:center;
     font-size: 35px;
     font-family: Subtitulos;
-    color: cornflowerblue;
-    margin-left: 60px;
+    color: var(--Bajo);
+    justify-content: center;
 }
 #pHead{
-  font-family: Texts;
+   font-family: Texts;
     text-align: center;
     font-size: 22px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }
 #headers{
     text-align: center;
@@ -321,10 +334,10 @@
   
 /*Botones*/
 .botones{
-  margin-left: 15%;
-  margin-right: 15%;
+  
   align-items: center;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 .redondoBtn{
