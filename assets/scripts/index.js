@@ -26,5 +26,23 @@
     })
 
     });
+    hideBtn1.addEventListener("click", () => {
+        alert1.remove();
+    });
+    hideBtn2.addEventListener("click", () => {
+        alert2.remove();
+    });
+    hideBtn3.addEventListener("click", () => {
+        alert3.remove();
+    });
+    hideBtn4.addEventListener("click", () => {
+        alert4.remove();
+    });
+    hideBtn5.addEventListener("click", () => {
+        alert5.remove();
+    });
+   
 })();
+
+
 

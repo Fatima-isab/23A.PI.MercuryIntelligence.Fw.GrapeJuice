@@ -430,10 +430,16 @@
   background-color: #fff;
   border:1px solid black ;
   color: rgb(255, 0, 195);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(255, 0, 195);
+  transition: box-shadow 0.3s ease;
+
 }
 #cuadradoTres:hover{ 
-  box-shadow: 10px 10px rgb(255, 0, 195);
-  color: black;
+  box-shadow: 0px 0px 20px rgb(255, 0, 195);
+
 }
 #cuadradoCuatro{
   background-color: #fff;
