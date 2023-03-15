@@ -1,3 +1,9 @@
+var slider = document.querySelector(".slider");
+var prev = document.querySelector(".prev");
+var next = document.querySelector(".next");
+var slideWidth = slider.clientWidth;
+var currentIndex = 0;
+
 (function(){
     const hideBtn1 = document.getElementById("hideBtn1"),
     hideBtn2 = document.getElementById("hideBtn2"),
@@ -44,5 +50,26 @@
    
 })();
 
-
-
+function slideNext() {
+    currentIndex++;
+    if (currentIndex > slider.childElementCount - 1) {
+      currentIndex = 0;
+    }
+    slider.style.transform = "translateX(-" + currentIndex * slideWidth + "px)";
+  }
+  
+  function slidePrev() {
+    currentIndex--;
+    if (currentIndex < 0) {
+      currentIndex = slider.childElementCount - 1;
+    }
+    slider.style.transform = "translateX(-" + currentIndex * slideWidth + "px)";
+  }
+  
+  next.addEventListener("click", function() {
+    slideNext();
+  });
+  
+  prev.addEventListener("click", function() {
+    slidePrev();
+  });
