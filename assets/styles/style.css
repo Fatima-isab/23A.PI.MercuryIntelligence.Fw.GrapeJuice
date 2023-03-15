@@ -62,7 +62,7 @@ header{
     background-color: var(--Fuerte) ;
     color:var(--blanco);
     box-shadow: 0 7px 15px var(--Fuerte);
-    
+    z-index: 10;
 
 }
 header h1{
