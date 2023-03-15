@@ -42,9 +42,8 @@ FLORES DE LA TORRE SAÚL
         </nav>
     </header>
 
-    <main>
+    <main><!-- Inicio del contenido de la página -->
        
-        
         <h2 id="tipo">Descargar</h2>
         <p id="pHead">Haz click en el botón de abajo para iniciar la descarga del archivo zip y extráelo en tu ordenador. 
             Dentro de la carpeta que acabas de extraer, encontrarás los archivos del framework, incluyendo los CSS, JS y cualquier otra biblioteca adicional que se haya utilizado. 
@@ -54,26 +53,24 @@ FLORES DE LA TORRE SAÚL
         </p>
         <h3 id="sub">¡Gracias por utilizar Grape Juice!</h3>
 
-        <!-- Aquí se declara un botón de descarga que se enlazará con el JS para ejecutar la acción -->
-        <!-- Cuando estén listos los botones se enlazará uno aqui mismo -->
+        <!-- Aquí se declara un botón de descarga que utiliza la funcion DOM de "download" para descargar un ZIP de los archivos necesarios del Framework.
+            Es necesario utilizar un ZIP, ya que si se enlaza un archivo JS o CSS para descargar, no lo descarga sino que lo abre automáticamente el navegador.
+            Entonces es NECESARIO enlazar un ZIP para que la función de DESCARGA funcione correctamente -->
         <a href="descarga-Grape.zip" download="script-grapeJuice.zip">
 		    <button class="redondoBtn" id="redondoMorado">Descarga Ahora</button>
-            <style>
+            <style> /* Para personalizar el botón de Descarga, utilizo el estilo de Botón Morado */
                 #redondoMorado {
-                    background-color: #a16bab;
-                    margin-left: auto;
+                    margin-left: auto; /* Personalizo con estas 4 lineas la posición central del botón */
                     margin-right: auto;
                     display: flex;
                     align-items: center;
-                    font-size: x-large;
-                    color: white;
+                    font-size: x-large; /* Agrando la fuente del botón, para hacerlo más destacado */
+                    color: white; /* Color de la fuente en blanco */
                 }
             </style>
 		</a>
         
-            
-
-    </main>
+    </main><!-- Fin del contenido de la página -->
 
     <footer>
         <p>Mercury Intelligence Group. Copyriht @ 2023 All rights reserved.</p>
