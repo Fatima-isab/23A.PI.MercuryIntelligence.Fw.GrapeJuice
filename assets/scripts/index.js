@@ -91,3 +91,8 @@ function hideSlide() {
     slide.classList.remove('active');
   });
 }
+
+function toggleSidebar() {
+  document.getElementById("sidebar1").classList.toggle("show");
+  document.querySelector("button span").classList.toggle("rotate");
+}
