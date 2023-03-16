@@ -666,7 +666,7 @@
   background-color: transparent;
   border: none;
   font-size: 40px;
-  color: #fff;
+  color: var(--blanco);
   cursor: pointer;
 }
 

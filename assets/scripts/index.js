@@ -46,16 +46,15 @@
    
 })();
 
+// Carrusel de imagenes
 const carousel = document.querySelector('.carousel');
 const slides = carousel.querySelectorAll('.carousel-slide');
 const prevBtn = carousel.querySelector('.carousel-prev');
 const nextBtn = carousel.querySelector('.carousel-next');
 let counter = 0;
 
-// Show the first slide
 slides[counter].classList.add('active');
 
-// Autoplay the carousel
 setInterval(() => {
   hideSlide();
   counter++;
@@ -65,7 +64,6 @@ setInterval(() => {
   showSlide();
 }, 3000);
 
-// Handle click events for navigation buttons
 prevBtn.addEventListener('click', () => {
   hideSlide();
   counter--;
@@ -84,12 +82,10 @@ nextBtn.addEventListener('click', () => {
   showSlide();
 });
 
-// Show the current slide
 function showSlide() {
   slides[counter].classList.add('active');
 }
 
-// Hide all slides
 function hideSlide() {
   slides.forEach(slide => {
     slide.classList.remove('active');
