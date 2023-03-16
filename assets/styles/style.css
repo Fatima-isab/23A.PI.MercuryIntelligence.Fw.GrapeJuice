@@ -226,8 +226,7 @@ main{
     margin-left: 18%;
     margin-right: 18%;
     border-radius: 9px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding: 45px; /* modifique para que el padding fuera en los cuatro lados y no solo a los lados */
     box-shadow:0 0 30px rgba(95, 93, 93, 0.911) ;
 }
 #parrafo1:hover{
