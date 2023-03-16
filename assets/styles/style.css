@@ -92,6 +92,9 @@ aside{
    margin-top: 10px;
    font-family:Apartado;
 }
+#cono{
+    font-size: 55px;
+}
 
 #ul{
     font-family: Apartados;
@@ -201,7 +204,7 @@ main{
     border: solid rgb(63, 1, 63) 3px;
     width: 23%;
     border-radius: 10px;
-    background-color: #66418742;
+    background-color: var(--Bajo);
     
 }
 .info .objetivo:hover, .mision:hover, .vision:hover{
@@ -218,8 +221,19 @@ main{
 #parrafo1{
     font-family: Texts;
     text-align: center;
-    padding-left: 12%;
-    padding-right: 12%;
+   font-size: 18px;
+    background-color: var(--Bajo);
+    margin-left: 18%;
+    margin-right: 18%;
+    border-radius: 9px;
+    padding-left: 45px;
+    padding-right: 45px;
+    box-shadow:0 0 30px rgba(95, 93, 93, 0.911) ;
+}
+#parrafo1:hover{
+    transform: scale(1.02,1.02);
+   
+    
 }
 
 #inicio{
@@ -254,7 +268,11 @@ footer p{
     font-size: var(--fsize);
     
 }
-
+#by{
+    text-align: center;
+    background-color: red;
+    font-size: 25px;
+}
 
 
 /*Media Queries*/
