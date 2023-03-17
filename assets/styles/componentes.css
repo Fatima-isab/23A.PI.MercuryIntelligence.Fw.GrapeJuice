@@ -56,17 +56,15 @@
   margin-left: 12.5%;
   margin-right: 12.5%;
 }
-
-.container2{
-  justify-content: center;
+#iconos{
   text-align: center;
-  background-color: var(--gris);
-  border: 3px solid var(--Fuerte);
-  margin-left: 12.5%;
-  margin-right: 12.5%;
   font-size: 220%;
 }
-
+.iconos{
+  margin: 5px;
+  background-color: var(--Bajo);
+  border: 2px solid rgb(0,0,0);
+}
 #Tipografia {
     text-align: center;
     font-family: Apartado;
@@ -462,40 +460,63 @@
 
 }
 #cuadradoCuatro{
-  background-color: #fff;
-  border:1px solid orangered;
-  color: orangered;
+  background-color: #74b3dd;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+
 }
+#cuadradoCuatro:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
 #cuadradoCuatro:hover{ 
-  background-color: orangered;
-  color: #ffffff;
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px
+  inset, rgba(0,0, .1)0 3px 5px, rgba(0, 0, 0, .1)0 
+  10px 13px;
+  transform: scale(1.05);
 }
 #cuadradoCinco{
   background-color: #fff;
-  border:1px solid orangered;
-  color: orangered;
+  box-shadow:#ADCFFF 0 -12px 6px inset;
+  color: #000;
+  border: 0;
+  cursor: pointer;
 }
 #cuadradoCinco:hover{ 
-  background-color: orangered;
-  color: #ffffff;
+  background-color: #24b7df;
+  box-shadow: #082ce0 0 -6px 8px inset;
+  transform: scale(1.125);
 }
 #cuadradoSeis{
-  background-color: #fff;
-  border:1px solid orangered;
-  color: orangered;
+  background-color: #000;
+  border: 0;
+  color: #fff;
 }
 #cuadradoSeis:hover{ 
-  background-color: orangered;
-  color: #ffffff;
+ background-color: #fff;
+ color: #000;
+ border: 1px solid #000;
 }
 #cuadradoSiete{
-  background-color: #fff;
-  border:1px solid orangered;
-  color: orangered;
+  background-color: #000;
+  border:1px solid red;
+  color: red;
 }
 #cuadradoSiete:hover{ 
-  background-color: orangered;
+  background-color: #000;
   color: #ffffff;
+  border:1px solid #fff;
 }
 
 /*Alertas */
