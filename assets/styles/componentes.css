@@ -700,7 +700,7 @@
   background-color: var(--Bajo);
   transition: all 0.3s;
   text-align: center;
-  margin-top: 107px;
+  margin-top: 106px;
   margin-bottom: 100px;
   font-size: 22px;
   opacity: 0.8;
@@ -720,6 +720,9 @@ button span {
   transform: rotate(90deg);
 }
 
-
+.sibe{
+  font-size: 25px;
+  background-color: var(--Fuerte);
+}
 
 
