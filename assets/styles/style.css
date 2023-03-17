@@ -203,6 +203,7 @@ main{
     text-align: center;
     border: solid rgb(63, 1, 63) 3px;
     width: 23%;
+    height: 580px;
     border-radius: 10px;
     background-color: var(--Bajo);
     
@@ -269,8 +270,12 @@ footer p{
 }
 #by{
     text-align: center;
-    background-color: red;
     font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#hrform{
+    margin-top: 5%;
 }
 
 
@@ -309,7 +314,7 @@ footer p{
 
 
 /*Modo oscuro*/
-  .dark-mode {
+  body.dark-mode {
     background-color: black;
     color: white;
   }
@@ -329,7 +334,7 @@ footer p{
   }
   .dark:hover{
     cursor: pointer;
-    box-shadow: 0 7px 15px var(--complementary);
+    box-shadow: 0 7px 15px var(--gris);
   }
 
   .light{
