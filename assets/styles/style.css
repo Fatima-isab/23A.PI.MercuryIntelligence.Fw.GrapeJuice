@@ -309,7 +309,7 @@ footer p{
 
 
 /*Modo oscuro*/
-  .dark-mode {
+  body.dark-mode {
     background-color: black;
     color: white;
   }
@@ -329,7 +329,7 @@ footer p{
   }
   .dark:hover{
     cursor: pointer;
-    box-shadow: 0 7px 15px var(--complementary);
+    box-shadow: 0 7px 15px var(--gris);
   }
 
   .light{
