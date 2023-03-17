@@ -345,3 +345,20 @@ footer p{
     cursor: pointer;
     box-shadow: 0 7px 15px var(--gris);
   }
+/* 
+             CONTACTO */
+
+  #titulocon{
+    text-align: center;
+    font-family: Apartados;
+  }
+  .container{
+    margin-top: 55px;
+     display: flex;
+    justify-content: center;
+  }
+  .posicion{
+    /* height: 350px; */
+    width:250px;
+    margin: 0 10px
+  }
