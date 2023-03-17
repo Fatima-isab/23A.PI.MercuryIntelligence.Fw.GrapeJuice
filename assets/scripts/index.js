@@ -96,3 +96,36 @@ function toggleSidebar() {
   document.getElementById("sidebar1").classList.toggle("show");
   document.querySelector("button span").classList.toggle("rotate");
 }
+
+(function(){
+  var alertBtn = document.getElementById("alertiBtn"),
+  modAlert = document.getElementById("modAlert"),
+  showBtn = document.getElementById("showBtn");
+
+  function Show(){
+      modAlert.classList.remove("oculto");
+  }
+
+  function Hide(){
+      modAlert.classList.add("oculto");
+
+  }
+  
+  showBtn.addEventListener("click",Show);
+  alertBtn.addEventListener("click",Hide);
+  
+
+})();
+
+function darkMode() {
+  var element = document.body;
+  var content = document.getElementById("DarkModetext");
+  element.className = "dark-mode";
+  content.innerText = "Dark Mode is ON";
+}
+function lightMode() {
+  var element = document.body;
+  var content = document.getElementById("DarkModetext");
+  element.className = "light-mode";
+  content.innerText = "Dark Mode is OFF";
+}

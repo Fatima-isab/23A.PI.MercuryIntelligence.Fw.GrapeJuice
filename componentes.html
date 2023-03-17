@@ -25,8 +25,9 @@ FLORES DE LA TORRE SAÚL
 
 
 <body>
-    
     <span id="btnUp" class="material-icons">arrow_upward</span>
+    <span class="dark material-icons" onclick="darkMode()">bedtime</span>
+    <span class="light material-icons" onclick="lightMode()">sunny</span>
     <header>
         <div>
             <h1 id="texto">Grape Juice</h1>
@@ -312,7 +313,24 @@ FLORES DE LA TORRE SAÚL
      <button class="redondoBtn" id="redondoNaranja">Naranja</button>
      <button class="redondoBtn" id="redondoVerde">Verde</button>
      </div> 
+     <br>
+     <article class="codigo">
+        <p>Presione para ver el codigo</p>
+        <div id="showBtn">
+            <spam class="icon-circle-down mdl-action"></spam>
+        </div>
+    </article>
 
+    <div class="alerti oculto" id="modAlert">
+        <div class="alertiBox">
+            <div id="alertiTxt">
+                <img src="./assets/img/codigo/botones redondos.png" id="imgCod" style="width: 800px;">
+            </div>
+            <div id="alertiBtn">
+                <span class="icon-cross"></span>
+            </div>
+        </div>
+    </div>
      <h3 id="sub">Botones cuadrados</h3>
      <br>
      <div class="botones">
@@ -325,6 +343,7 @@ FLORES DE LA TORRE SAÚL
      <button class="cuadradoBtn" id="cuadradoSiete">Azul</button>
      </div>
      <br>
+
 
      <!-- Alertas -->
      <h1 id="alertass"></h1>

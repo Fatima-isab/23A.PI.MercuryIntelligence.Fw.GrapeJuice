@@ -308,3 +308,40 @@ footer p{
 }
 
 
+/*Modo oscuro*/
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+
+  .dark{
+    position: fixed;
+    bottom: 400px;
+    right: 70px;
+    font-size: 30px;
+    color: var(--Fuerte);
+    background-color: var(--Bajo);
+    border-radius: 50px;
+  }
+  .dark:hover{
+    cursor: pointer;
+    box-shadow: 0 7px 15px var(--complementary);
+  }
+
+  .light{
+    position: fixed;
+    bottom: 400px;
+    right: 25px;
+    font-size: 30px;
+    color: var(--Fuerte);
+    background-color: var(--Bajo);
+    border-radius: 50px;
+  }
+  .light:hover{
+    cursor: pointer;
+    box-shadow: 0 7px 15px var(--gris);
+  }
