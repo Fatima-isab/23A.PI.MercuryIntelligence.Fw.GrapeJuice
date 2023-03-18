@@ -53,21 +53,19 @@
 
 .container {
   justify-content: center;
-  background-color: var(--gris);
   border: 3px solid var(--Fuerte);
   margin-left: 12.5%;
   margin-right: 12.5%;
 }
 
 #iconos {
-  text-align: center;
-  font-size: 220%;
+  text-align: left;
+  font-size: 300%;
 }
 
 .iconos {
-  margin: 5px;
-  background-color: var(--Bajo);
-  border: 2px solid rgb(0, 0, 0);
+  margin: 20px;
+  
 }
 
 #Tipografia {
@@ -294,30 +292,19 @@ select {
   height: 150px;
 }
 
+
 #parrafo1 {
   text-align: left;
-  background-color: var(--gris);
-  border-radius: 8px;
-  margin-left: 12%;
-  margin-right: 12%;
   font-size: 22px;
 }
 
 #parrafo2 {
   text-align: center;
-  background-color: var(--gris);
-  border-radius: 8px;
-  margin-left: 12%;
-  margin-right: 12%;
   font-size: 22px;
 }
 
 #parrafo3 {
   text-align: right;
-  background-color: var(--gris);
-  border-radius: 8px;
-  margin-left: 12%;
-  margin-right: 12%;
   font-size: 22px;
 }
 
@@ -680,22 +667,17 @@ select {
   height: auto;
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 30%;
 }
 
-#responsiva {
-  background-color: var(--gris);
-  border-radius: 8px;
-  margin-left: 12%;
-  margin-right: 12%;
-}
 
 .imagen2 {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-  width: 30%;
+  margin-bottom: 3%;
+  width: 25%;
   animation: giro 5s linear infinite;
 }
 
@@ -714,7 +696,8 @@ select {
   height: auto;
   display: block;
   margin: 0 auto;
-  width: 30%;
+  margin-bottom: 3%;
+  width: 25%;
   margin-top: 100px;
   animation: desvanecer 5s linear infinite;
 }
@@ -725,7 +708,7 @@ select {
   }
 
   to {
-    opacity: 0;
+    opacity: 0.3;
   }
 }
 
@@ -734,8 +717,9 @@ select {
   height: auto;
   display: block;
   margin: 0 auto;
-  width: 30%;
-  animation: slide-in 2s linear infinite;
+  margin-bottom: 3%;
+  width: 25%;
+  animation: slide-in 3s linear infinite;
   margin-top: 100px;
 }
 
@@ -745,16 +729,11 @@ select {
   }
 
   to {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
+  
 }
 
-.animada {
-  background-color: var(--gris);
-  border-radius: 8px;
-  margin-left: 12%;
-  margin-right: 12%;
-}
 
 .carousel {
   position: relative;

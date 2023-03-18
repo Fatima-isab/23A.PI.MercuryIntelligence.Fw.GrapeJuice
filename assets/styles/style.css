@@ -219,7 +219,7 @@ main{
     padding-left: 15px;
     padding-right: 15px;
 }
-#parrafo1{
+#parrafoi{
     font-family: Texts;
     text-align: center;
    font-size: 18px;
@@ -230,7 +230,7 @@ main{
     padding: 45px; /* modifique para que el padding fuera en los cuatro lados y no solo a los lados */
     box-shadow:0 0 30px rgba(95, 93, 93, 0.911) ;
 }
-#parrafo1:hover{
+#parrafoi:hover{
     transform: scale(1.02,1.02);
    
     
@@ -314,9 +314,10 @@ footer p{
 
 
 /*Modo oscuro*/
-  body.dark-mode {
-    background-color: black;
+  .dark-mode {
+    background-color: rgb(0, 0, 0);
     color: white;
+    
   }
   .light-mode {
     background-color: white;
