@@ -65,7 +65,12 @@
 
 .iconos {
   margin: 20px;
-  
+  cursor: pointer;
+}
+.iconos:hover {
+  background-color: rgba(128, 128, 128, 0.249);
+  margin: 20px;
+  cursor: pointer;
 }
 
 #Tipografia {
@@ -823,10 +828,12 @@ button span {
   transform: rotate(90deg);
 }
 
-.sibe {
-  font-size: 25px;
-  background-color: var(--Fuerte);
+#sb{
+  margin-top: 15px;
+  font-family: Apartados;
+  text-decoration: none;
 }
+
 
 /*Ver codigo*/
 .codigo {

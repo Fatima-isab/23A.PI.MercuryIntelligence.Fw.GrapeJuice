@@ -277,7 +277,20 @@ footer p{
 #hrform{
     margin-top: 5%;
 }
-
+.sibe{
+    position: fixed;
+    bottom: 430px;
+    left: 5px;
+    font-size: 80px;
+    color: var(--Fuerte);
+    background-color: var(--Bajo);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .sibe:hover{
+    cursor: pointer;
+    box-shadow: 0 7px 15px var(--gris);
+  }
 
 /*Media Queries*/
 
@@ -326,7 +339,7 @@ footer p{
 
   .dark{
     position: fixed;
-    bottom: 400px;
+    bottom: 430px;
     right: 70px;
     font-size: 30px;
     color: var(--Fuerte);
@@ -340,7 +353,7 @@ footer p{
 
   .light{
     position: fixed;
-    bottom: 400px;
+    bottom: 430px;
     right: 25px;
     font-size: 30px;
     color: var(--Fuerte);
