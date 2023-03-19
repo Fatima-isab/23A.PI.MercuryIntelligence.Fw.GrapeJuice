@@ -139,6 +139,9 @@ function darkMode() {
 function lightMode() {
   var element = document.body;
   element.className = "light-mode";
+  var labe = document.getElementById("label1");
+  labe.style.backgroundColor = "#D9D9D9"
+}
   var side =document.getElementById("sidebar1")
   side.style.backgroundColor = "#c3acd0";
   var x = document.getElementsByClassName("header");
@@ -151,6 +154,4 @@ function lightMode() {
   for (i = 0; i < y.length; i++) {
     y[i].style.color = "#664187";
   }
-  var labe = document.getElementById("label1");
-  labe.style.backgroundColor = "D9D9D9"
-}
+  
