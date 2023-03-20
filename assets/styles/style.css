@@ -555,3 +555,63 @@ footer p{
         200px auto 200px;
     }
 }
+
+#home2{
+    display: none;
+  }
+  
+  #cajaIn2{
+    display: none;
+  }
+  
+  #des2{
+    display: none;
+  }
+  
+  #cont2{
+    display: none;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    #ul{
+      text-align: center;
+    }
+  
+    #home{
+      display: none;
+    }
+  
+    #home2{
+      display: block;
+      font-size: 25px;
+    }
+  
+    #cajaIn{
+      display: none;
+    }
+  
+    #cajaIn2{
+      display: block;
+      font-size: 25px;
+    }
+  
+    #des{
+      display: none;
+    }
+  
+    #des2{
+      display: block;
+      font-size: 25px;
+    }
+  
+    #cont{
+      display: none;
+    }
+  
+    #cont2{
+      display: block;
+      font-size: 25px;
+    }
+  
+  }
