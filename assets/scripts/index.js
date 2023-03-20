@@ -49,8 +49,8 @@
 // Carrusel de imagenes
 const carousel = document.querySelector('.carousel');
 const slides = carousel.querySelectorAll('.carousel-slide');
-const prevBtn = carousel.querySelector('.carousel-prev');
-const nextBtn = carousel.querySelector('.carousel-next');
+const prevBtn = carousel.querySelector('.icon-circle-left');
+const nextBtn = carousel.querySelector('.icon-circle-right');
 let counter = 0;
 
 slides[counter].classList.add('active');
