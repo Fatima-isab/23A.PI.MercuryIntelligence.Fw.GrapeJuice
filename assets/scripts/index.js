@@ -125,33 +125,30 @@ function darkMode() {
   var side =document.getElementById("sidebar1");
   side.style.backgroundColor = "gray"
   var x = document.getElementsByClassName("header");
-  var i;
-  for (i = 0; i < x.length; i++) {
+  for (var i = 0; i < x.length; i++) {
     x[i].style.backgroundColor = "black";
   }
   var y = document.getElementsByClassName("tipo");
-  var i;
-  for (i = 0; i < y.length; i++) {
+  for (var i = 0; i < y.length; i++) {
     y[i].style.color = "gray";
   }
 
 }
+
 function lightMode() {
   var element = document.body;
   element.className = "light-mode";
   var labe = document.getElementById("label1");
   labe.style.backgroundColor = "#D9D9D9"
-}
   var side =document.getElementById("sidebar1")
   side.style.backgroundColor = "#c3acd0";
   var x = document.getElementsByClassName("header");
-  var i;
-  for (i = 0; i < x.length; i++) {
+  for (var i = 0; i < x.length; i++) {
     x[i].style.backgroundColor = "#664187";
   }
   var y = document.getElementsByClassName("tipo");
-  var i;
-  for (i = 0; i < y.length; i++) {
+  for (var i = 0; i < y.length; i++) {
     y[i].style.color = "#664187";
   }
   
+}
