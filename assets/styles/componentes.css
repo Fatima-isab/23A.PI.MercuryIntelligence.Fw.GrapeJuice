@@ -859,7 +859,7 @@ button span {
   display: none;
 }
 
-.alerti {
+.alerti, .alerti1, .alerti2, .alerti3 {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -867,7 +867,7 @@ button span {
   top: 0;
   background: rgba(235, 225, 239, 0.4);
 }
-
+/*para imagenes anchas*/
 .alerti .alertiBox {
   position: relative;
   justify-content: center;
@@ -879,8 +879,19 @@ button span {
   left: 12.5%;
 
 }
+/*para imagenes largas*/
+.alerti1 .alertiBox1, .alerti2 .alertiBox2, .alerti3 .alertiBox3 {
+  position: relative;
+  justify-content: center;
+  width: 20vw;
+  height: 70vh;
+  background: var(--gris);
+  border-radius: 10px;
+  margin-top: 12.5%;
+  left: 12.5%;
 
-.alerti #alertiBtn {
+}
+.alerti #alertiBtn,.alerti1 #alertiBtn1, .alerti2 #alertiBtn2, .alerti3 #alertiBtn3 {
   position: absolute;
   float: right;
   top: 2vh;
