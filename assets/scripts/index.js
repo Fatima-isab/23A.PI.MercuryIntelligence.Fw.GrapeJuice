@@ -322,19 +322,12 @@ function lightMode() {
   labe.style.backgroundColor = "#D9D9D9"
   
 }
-
-  var side =document.getElementById("sidebar1")
-  side.style.backgroundColor = "#c3acd0";
-  var x = document.getElementsByClassName("header");
-  var i;
-  for (i = 0; i < x.length; i++) {
-    x[i].style.backgroundColor = "#664187";
-  }
-  var y = document.getElementsByClassName("tipo");
-  var i;
-  for (i = 0; i < y.length; i++) {
-    y[i].style.color = "#664187";
-  }
+const btnSwitch = document.querySelector('#switch');
+btnSwitch.addEventListener('click', () =>{
+document.body.classList.toggle('dark');
+btnSwitch.classList.toggle('active');
+});
+ 
 
   // Modales Uriel R
   (function () {
@@ -481,16 +474,57 @@ function lightMode() {
     showBtn11.addEventListener("click", Show);
     alertBtn11.addEventListener("click", Hide);
   })();
-
-
-const btnSwitch = document.querySelector('#switch');
-btnSwitch.addEventListener('click', () =>{
-document.body.classList.toggle('dark');
-btnSwitch.classList.toggle('active');
-});
-
-
-
-
-
+  (function () {
+    var alertBtna = document.getElementById("alertiBtna"),
+      modAlerta = document.getElementById("modAlerta"),
+      showBtna = document.getElementById("showBtna");
   
+    function Show() {
+      modAlerta.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlerta.classList.add("oculto");
+  
+    }
+  
+    showBtna.addEventListener("click", Show);
+    alertBtna.addEventListener("click", Hide);
+  })();
+  //Animaciones
+
+  var animate1 = anime({
+    targets: '#uno',
+    translateX: 250,
+    scale: 1,
+    rotate: '1turn',
+    autoplay: false
+  });
+  var animate2= anime({
+    targets: '#dos',
+    translateX: -400,
+    autoplay: false
+  });
+  var animate3 = anime({
+  targets: '#tres',
+  translateX: 270,
+  direction: 'alternate',
+  loop: true,
+  easing: 'easeInOutQuad',
+  duration:2000,
+  autoplay: false
+  });
+  var animate4= anime({
+    targets: '#cuatro',
+    translateY: 250,
+    autoplay: false
+    
+  });
+  
+  
+  document.querySelector('#btn1').onclick = animate1.play;
+  document.querySelector('#btn2').onclick = animate2.play;
+  document.querySelector('#btn3').onclick = animate3.play;
+  document.querySelector('#btn4').onclick = animate4.play;
+
+ 

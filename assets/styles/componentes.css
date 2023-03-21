@@ -845,7 +845,9 @@ body.dark-mode #form{
 #sidebar1.show {
   left: 0;
 }
-
+body.dark-mode #sidebar1{
+  background-color: var(--headerDark);
+}
 
 
 button span {
@@ -891,7 +893,7 @@ button span {
   display: none;
 }
 
-.alerti,.alertic .alerti1, .alerti2, .alerti3, .alerti4, .alerti5, .alerti6, .alerti7, .alerti8, .alerti9, .alerti10,
+.alerti,.alertic, .alertia, .alerti1, .alerti2, .alerti3, .alerti4, .alerti5, .alerti6, .alerti7, .alerti8, .alerti9, .alerti10,
 .alerti11, .alerti12, .alerti13, .alerti14, .alerti15, .alerti16, .alerti17, .alerti18 {
   width: 100vw;
   height: 100vh;
@@ -901,7 +903,7 @@ button span {
   background: rgba(235, 225, 239, 0.4);
 }
 /*para imagenes anchas*/
-.alerti .alertiBox, .alertic .alerticBox, .alerti4 .alertiBox4, .alerti5 .alertiBox5, .alerti6 .alertiBox6, .alerti7 .alertiBox7
+.alerti .alertiBox, .alertic .alerticBox,.alertia .alertiBoxa, .alerti4 .alertiBox4, .alerti5 .alertiBox5, .alerti6 .alertiBox6, .alerti7 .alertiBox7
 , .alerti8 .alertiBox8, .alerti9 .alertiBox9, .alerti15 .alertiBox15{
   position: relative;
   justify-content: center;
@@ -940,7 +942,7 @@ button span {
   left: 40%;
 
 }
-.alerti #alertiBtn, .alertic #alerticBtn, .alerti1 #alertiBtn1, .alerti2 #alertiBtn2, .alerti3 #alertiBtn3, .alerti4 #alertiBtn4,
+.alerti #alertiBtn, .alertic #alerticBtn, .alertia #alertiBtna, .alerti1 #alertiBtn1, .alerti2 #alertiBtn2, .alerti3 #alertiBtn3, .alerti4 #alertiBtn4,
 .alerti5 #alertiBtn5,.alerti6 #alertiBtn6,.alerti7 #alertiBtn7,.alerti8 #alertiBtn8,.alerti9 #alertiBtn9
 ,.alerti10 #alertiBtn10,.alerti11 #alertiBtn11,.alerti12 #alertiBtn12,.alerti13 #alertiBtn13,.alerti14 #alertiBtn14,.alerti15 #alertiBtn15,.alerti16 #alertiBtn16,.alerti17 #alertiBtn17,.alerti18 #alertiBtn18{
   position: absolute;
@@ -1027,4 +1029,63 @@ button span {
     display: none;
   }
 
+}
+/*Animacion*/
+section img{
+  position: flex;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  margin-left: 7%;
+  pointer-events: none;
+}
+section img#uno{
+  left: 13%;
+  bottom: 10;
+  top:initial;
+  z-index: 1000;
+}
+section img#dos{
+  left: 33%;
+  bottom: 10;
+  top:initial;
+  z-index: 1000;
+}
+section img#tres{
+  left: 53%;
+  bottom: 10;
+  top:initial;
+  z-index: 1000;
+}
+section img#cuatro{
+  left: 73%;
+  bottom: 10;
+  top:initial;
+  z-index: 1000;
+}
+
+#btn1, #btn2, #btn3, #btn4{
+  position: flex;
+  top: 50%;
+  margin-top: 8%; 
+  text-decoration: none;
+  padding: 8px 50px;
+  background:var(--Bajo);
+  border-radius: 40px;
+  font-size: 1.4em;
+  color: #2b1055;
+  z-index: 10000;
+}
+#btn1{
+  margin-left: 8.5%;
+}
+#btn2{
+margin-left: 8.5%;
+}
+#btn3{
+  margin-left: 8.5%;
+}
+#btn4{
+  margin-left: 8.5%;
 }
