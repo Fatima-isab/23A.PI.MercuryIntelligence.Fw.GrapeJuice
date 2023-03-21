@@ -910,6 +910,7 @@ button span {
   display: none;
 }
 
+
 #des2{
   display: none;
 }
@@ -958,6 +959,10 @@ button span {
   #cont2{
     display: block;
     font-size: 25px;
+  }
+
+  #comp{
+    display: none;
   }
 
 }

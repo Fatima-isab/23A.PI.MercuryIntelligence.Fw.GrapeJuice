@@ -613,5 +613,9 @@ footer p{
       display: block;
       font-size: 25px;
     }
+
+    #comp{
+        display: none;
+      }
   
   }
