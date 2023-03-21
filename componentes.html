@@ -27,7 +27,7 @@ FLORES DE LA TORRE SAÚL
 <body>
     <span id="btnUp" class="material-icons">arrow_upward</span>
     <button class="switch" id="switch">
-        <span class="dark span material-icons" onclick="darkMode()">bedtime</span>
+        <span class="dark span material-icons" id="dark" onclick="darkMode()">bedtime</span>
         <span class="light span material-icons" onclick="lightMode()">sunny</span>
     </button>
     <header class="header">
@@ -467,7 +467,7 @@ FLORES DE LA TORRE SAÚL
                 <button class="redondoBtn" id="redondoVerde">Verde</button>
             </div>
             <br>
-            
+
             <h3 id="sub">Botones cuadrados</h3>
             <br>
             <div class="botones">
@@ -640,7 +640,7 @@ FLORES DE LA TORRE SAÚL
         <hr color="#664187" size="2" style="border-style:double;" id="hrbtn">
 
         <article class="codigo">
-            <p>Presione para ver el codigo del Textarea  </p>
+            <p>Presione para ver el codigo del Textarea </p>
             <div id="showBtn16">
                 <spam class="icon-circle-down mdl-action"></spam>
             </div>
@@ -676,7 +676,7 @@ FLORES DE LA TORRE SAÚL
         <hr color="#664187" size="2" style="border-style:double;" id="hrbtn">
 
         <article class="codigo">
-            <p>Presione para ver el codigo del Radiobutoom  </p>
+            <p>Presione para ver el codigo del Radiobutoom </p>
             <div id="showBtn18">
                 <spam class="icon-circle-down mdl-action"></spam>
             </div>
@@ -844,7 +844,41 @@ FLORES DE LA TORRE SAÚL
             </div>
         </div>
 
+        <h3 id="sub">Animaciones</h3>
+        <p id="pHead">Otra forma de agregar animaciones a las imágenes es mediante la librería anime.js, esto nos
+            permite controlarlas y decidir si se quiere activar la animación de forma automática, o al realizar una
+            acción.
+        <p><br>
+        <div class="animaciones"></div>
+        <section>
+            <img src="./assets/img/imagenAnimacion.jfif" style="width: 200px; height: 200px;" id="uno">
+            <img src="./assets/img/aniamcion2.jfif" style="width: 200px; height: 200px;" id="dos">
+            <img src="./assets/img/animacion3.jfif" style="width: 200px; height: 200px;" id="tres">
+            <img src="./assets/img/animacion4.jfif" style="width: 200px; height: 200px;" id="cuatro">
+            <button href="#" id="btn1">Animar</button>
+            <button href="#" id="btn2">Animar</button>
+            <button href="#" id="btn3">Animar</button>
+            <button href="#" id="btn4">Animar</button>
+        </section>
+        </div>
+        <br><br><br>
+        <article class="codigo">
+            <p>Presione para ver el codigo</p>
+            <div id="showBtna">
+                <spam class="icon-circle-down mdl-action"></spam>
+            </div>
+        </article>
 
+        <div class="alertia oculto" id="modAlerta">
+            <div class="alertiBoxa">
+                <div id="alertiTxta">
+                    <img src="assets/img/codigo/animaciones codigo2.png" id="imgCod" style="width: 720px; height: 250px;">
+                </div>
+                <div id="alertiBtna">
+                    <span class="icon-cross"></span>
+                </div>
+            </div>
+        </div>
 
         <!-- Iconos -->
         <h1 id="iconoss"></h1>
@@ -955,9 +989,10 @@ FLORES DE LA TORRE SAÚL
         <footer>
             <p>Mercury Intelligence Group. Copyriht @ 2023 All rights reserved.</p>
         </footer>
-
+        <script src="./assets/scripts/anime.min.js"></script>
         <script src="assets/scripts/jquery-latest.min.js"></script>
         <script src="assets/scripts/index.js"></script>
+
 </body>
 
 </html>
