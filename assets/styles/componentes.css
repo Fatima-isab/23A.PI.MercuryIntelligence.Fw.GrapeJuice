@@ -225,43 +225,55 @@
   text-align: center;
   font-size: 25px;
 }
-
+/*Label*/
 #label1 {
   text-align: left;
   background-color: var(--gris);
 }
-
-
+#conte1{
+  display: flex;
+  justify-content: center;
+}
+#conte2{
+  display: flex;
+  justify-content: center;
+}#conte3{
+  display: flex;
+  justify-content: center;
+}#conte4{
+  display: flex;
+  justify-content: center;
+}
 .rectangulo1 {
-  width: 825px;
+  width: 82%;
   height: 30px;
   background-color: rgb(255, 255, 255);
   float: right;
-  margin-right: 10px;
+  margin-right: 2%;
 }
 
 .rectangulo2 {
-  width: 870px;
+  width: 85%;
   height: 25px;
   background-color: rgb(255, 255, 255);
   float: right;
-  margin-right: 10px;
+  margin-right: 2%;
 }
 
 .rectangulo3 {
-  width: 890px;
+  width: 88%;
   height: 20px;
   background-color: rgb(255, 255, 255);
   float: right;
-  margin-right: 10px;
+  margin-right: 2%;
 }
 
 .rectangulo4 {
-  width: 900px;
+  width: 90%;
   height: 15px;
   background-color: rgb(255, 255, 255);
   float: right;
-  margin-right: 10px;
+  margin-right: 2%;
 }
 
 .label {
@@ -270,15 +282,15 @@
   font-weight: bold;
 }
 
-select {
+#seleccion, #opciones {
   background-color: var(--Bajo);
   color: #000000;
   font-family: Apartados;
   border: 1px solid var(--Beige);
-  padding: 5px;
-  width: 200px;
+  padding: 0.8%;
+  width: 14%;
   border-radius: 8px;
-
+  text-align: center;
 }
 
 #lab {
@@ -357,8 +369,10 @@ select {
 
   align-items: center;
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  justify-content: space-around;
+  margin-bottom: 2.8%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .redondoBtn {
@@ -370,10 +384,8 @@ select {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
   text-align: center;
   vertical-align: middle;
 }
@@ -386,10 +398,8 @@ select {
   line-height: 20px;
   max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
   text-align: center;
   vertical-align: middle;
 }
@@ -571,9 +581,11 @@ select {
 #name {
   margin-right: 38%;
   margin-top: 2%;
+  margin-left: 5%;
   padding-left: 2%;
   border-radius: 7px;
-  height: 35px;
+  height: 25%;
+  text-align: center;
 }
 #message{
   resize: vertical;
@@ -884,11 +896,11 @@ button span {
   position: relative;
   justify-content: center;
   width: 20vw;
-  height: 70vh;
+  height: 75vh;
   background: var(--gris);
   border-radius: 10px;
-  margin-top: 12.5%;
-  left: 12.5%;
+  margin-top: 8.5%;
+  left: 40%;
 
 }
 .alerti #alertiBtn,.alerti1 #alertiBtn1, .alerti2 #alertiBtn2, .alerti3 #alertiBtn3 {

@@ -96,7 +96,7 @@ function toggleSidebar() {
   document.getElementById("sidebar1").classList.toggle("show");
   document.querySelector("button span").classList.toggle("rotate");
 }
-
+/*para ver codigo*/
 (function () {
   var alertBtn = document.getElementById("alertiBtn"),
     modAlert = document.getElementById("modAlert"),
