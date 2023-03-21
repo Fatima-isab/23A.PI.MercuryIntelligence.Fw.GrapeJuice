@@ -833,7 +833,7 @@ body.dark-mode #form{
   top: 0;
   left: -200px;
   height: 100%;
-  background-color: var(--Bajo);
+  background-color: var(--Fuerte);
   transition: all 0.3s;
   text-align: center;
   margin-top: 100px;
@@ -845,6 +845,7 @@ body.dark-mode #form{
 #sidebar1.show {
   left: 0;
 }
+
 
 
 button span {
