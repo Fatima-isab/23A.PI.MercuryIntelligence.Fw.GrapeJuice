@@ -36,6 +36,8 @@
     --Beige: #F7EFE5;
     --blanco: #FFFBF5;
     --gris:#D9D9D9;
+    --headerDark:black;
+    --tituloDark:gray;
     --fsizeContenido: 22px;
     --fsizesubtitulos:26px;
     
@@ -64,6 +66,9 @@ header{
     box-shadow: 0 7px 15px var(--Fuerte);
     z-index: 10;
 
+}
+body.dark-mode header{
+    background-color: var(--headerDark);
 }
 header h1{
     text-align: left;
@@ -262,6 +267,7 @@ footer{
     padding: 3vh;
     text-align:center;
     background-color:var(--Bajo);
+    display: flexbox;
  
     
 }
@@ -269,6 +275,7 @@ footer p{
     font-size: var(--fsize);
     
 }
+
 #by{
     text-align: center;
     font-size: 25px;
@@ -293,95 +300,61 @@ footer p{
     box-shadow: 0 7px 15px var(--gris);
   }
 
-/*Media Queries*/
-
-/*Desktop*/
-@media screen and (min-width: 1000px ) {
-    .icon-menu{
-        display: none;
-    }
-}
-
-/*Tablet*/
-@media screen and (min-width: 720px) and (max-width: 1000px){
-    #perso, #texto{
-        display: none;
-    }
-    main{
-        display:flexbox;
-    }
-    
-}
-
-/*Moviles*/
-@media screen and (max-width: 720px){
-    #perso, #texto{
-        display: none;
-    }
-    #logo{
-        display: none;
-    }
-    main{
-        display:flexbox;
-    }
-}
-
 
 /*Modo oscuro*/
-  .dark-mode{
-    background-color: rgb(51, 4, 65);
-    color: white;
-  }
+.switch{
+  background: #34305B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display:flex;
+  outline:none;
+  position: fixed;
+  bottom: 430px;
+  right: 25px;
+  color: var(--Fuerte);
+  background-color: var(--Bajo);
+  
+}
 
-  .light-mode {
-    background-color: white;
-    color: black;
-  }
 
-  .dark{
-    position: fixed;
-    bottom: 430px;
-    right: 70px;
-    font-size: 30px;
-    color: var(--Fuerte);
-    background-color: var(--Bajo);
-    border-radius: 50px;
-  }
-  .dark:hover{
-    cursor: pointer;
-    box-shadow: 0 7px 15px var(--gris);
-  }
+span {
+  width: 30px;
+  height:30px;
+  line-height:30px;
+  display:block;
+  background:none;
+   }
 
-  .light{
-    position: fixed;
-    bottom: 430px;
-    right: 25px;
-    font-size: 30px;
-    color: var(--Fuerte);
-    background-color: var(--Bajo);
-    border-radius: 50px;
-  }
-  .light:hover{
-    cursor: pointer;
-    box-shadow: 0 7px 15px var(--gris);
-  }
+   .dark-mode{
+      background-color: rgb(51, 4, 65);
+      color: white;
+    }
+  
+    .light-mode {
+      background-color: white;
+      color: black;
+    }
+    
 
 /*  --------------------------------CONTACTO----------------------------------------- */
 
 #titulocon {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5%;
     font-family: Subtitulos;
 }
 
 .Integ{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: 480px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin:auto;
+    margin-top: 10%;
 }
 
 .Integ .card{
@@ -412,6 +385,50 @@ footer p{
     font-weight: 300;
 }
 .Integ .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+.Integ2{
+    width: 100%;
+    max-width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 4%;
+}
+
+.Integ2 .card{
+    width: 250px;
+    height: 280px;
+    border-radius: 9px;
+    box-shadow: 0 2px 2px rgba(50, 2, 84, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.Integ2 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(89, 12, 152, 0.2);
+}
+
+.Integ2 .card img{
+    width: 200px;
+    height: 250px;
+}
+.Integ2 .card h5{
+    font-weight: 600;
+}
+.Integ2 .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.Integ2 .card a{
     font-weight: 500;
     text-decoration: none;
     color: #3498db;
@@ -532,6 +549,7 @@ footer p{
 }
 .redes{
     position: center;
+
 }
 
 .grid-conte{
@@ -620,3 +638,155 @@ footer p{
       }
   
   }
+/*Media Queries*/
+
+/*Desktop*/
+@media screen and (min-width: 1000px ) {
+    .icon-menu{
+        display: none;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 720px) and (max-width: 1000px){
+    #perso, #texto{
+        display: none;
+    }
+    main{
+        display:fixed;
+    }
+
+    .portada{
+        width: 100%;
+        height: 90vh;
+        position:flex;
+        text-align: center;
+        margin-top: -12%;
+    }
+    
+    #titulo{
+        margin-top: 30%;
+        text-align: center;
+        font-size: 100px;
+        font-family: Titles;
+        font-style:bold;
+    }
+    #equipo{
+        font-size: 30px;
+        margin-top: 40px;
+        font-family: Titles;
+    }
+    
+    .switch{
+        display:flex;
+        outline:none;
+        position: fixed;
+        bottom: 990px;
+        right: 25px;
+      }
+      .sibe{
+        display:flex;
+        outline:none;
+        position: fixed;
+        bottom: 990px;
+        right: 75px;
+      }
+      #by{
+        margin-top: 10%;
+      }
+    .redes{
+        margin-top: 25%;
+        margin-left: 12.5%;
+        position: relative;
+        display: flex;
+    }
+    #logo{
+        margin-left: 0;
+        margin-top: -4%;
+    }
+    
+    main{
+        display:flexbox;
+    }
+    .info{
+        display: inline-block;
+        margin-bottom: 5%;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 250px;
+              
+    }
+    .info .objetivo, .mision, .vision{
+        font-family: Subtitulos;
+        text-align: in;
+        font-size: 99%;
+        border: solid rgb(63, 1, 63) 3px;
+        width: 100%;
+        height: 120%;
+        border-radius: 10px;
+        background-color: var(--Bajo);
+        margin-bottom: 2%;
+    }
+    #parrafo{
+        font-family: Texts;
+        margin-top: 7%;
+    }
+    #textOb{
+        margin-top: 5%;
+    }
+    #imagen{
+        display: none;
+    }
+    footer{
+        justify-content: center;
+        margin-top: 30%;
+    }
+    .Integ{
+        width: 100%;
+        max-width: 1200px;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:auto;
+        margin-top: 10%;
+    }
+    .Integ2{
+        width: 100%;
+        max-width: 1200px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+}
+
+/*Moviles*/
+@media screen and (max-width: 720px){
+    #perso, #texto{
+        display: none;
+    }
+    .switch.span{
+        margin-top: 10%;
+    }
+    .objetivo{
+        padding: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+        position:absolute
+    }
+    #textoOb{
+        margin: 11%;
+    }
+    .mision{
+        display: none;
+    }
+    .vision{
+        display: none;
+    }
+   
+    
+}

@@ -37,6 +37,8 @@
   --Beige: #F7EFE5;
   --blanco: #FFFBF5;
   --gris: #D9D9D9;
+  --headerDark:#242224;
+  --tituloDark:gray;
   --fsizeContenido: 22px;
   --fsizesubtitulos: 26px;
 
@@ -49,6 +51,9 @@
   font-size: 50px;
   font-family: fantasy;
   margin-top: 106px;
+}
+body.dark-mode .tipo{
+  color: var(--tituloDark);
 }
 
 .container {
@@ -568,6 +573,9 @@
   margin-left: 25%;
   margin-right: 25%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body.dark-mode #form{
+  background-color: rgb(51, 4, 65);
 }
 .tag{
   text-align: center;
