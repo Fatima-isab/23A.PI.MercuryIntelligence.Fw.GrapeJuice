@@ -205,4 +205,150 @@ function lightMode() {
   for (i = 0; i < y.length; i++) {
     y[i].style.color = "#664187";
   }
+
+  // Modales Uriel R
+  (function () {
+    var alertBtn4 = document.getElementById("alertiBtn4"),
+      modAlert4 = document.getElementById("modAlert4"),
+      showBtn4 = document.getElementById("showBtn4");
+  
+    function Show() {
+      modAlert4.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlert4.classList.add("oculto");
+  
+    }
+  
+    showBtn4.addEventListener("click", Show);
+    alertBtn4.addEventListener("click", Hide);
+  })();
+
+  (function () {
+    var alertBtn5 = document.getElementById("alertiBtn5"),
+      modAlert5 = document.getElementById("modAlert5"),
+      showBtn5 = document.getElementById("showBtn5");
+  
+    function Show() {
+      modAlert5.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlert5.classList.add("oculto");
+  
+    }
+  
+    showBtn5.addEventListener("click", Show);
+    alertBtn5.addEventListener("click", Hide);
+  })();
+
+
+  (function () {
+    var alertBtn6 = document.getElementById("alertiBtn6"),
+      modAlert6 = document.getElementById("modAlert6"),
+      showBtn6 = document.getElementById("showBtn6");
+  
+    function Show() {
+      modAlert6.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlert6.classList.add("oculto");
+  
+    }
+  
+    showBtn6.addEventListener("click", Show);
+    alertBtn6.addEventListener("click", Hide);
+  })();
+
+  (function () {
+    var alertBtn7 = document.getElementById("alertiBtn7"),
+      modAlert7 = document.getElementById("modAlert7"),
+      showBtn7 = document.getElementById("showBtn7");
+  
+    function Show() {
+      modAlert7.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlert7.classList.add("oculto");
+  
+    }
+  
+    showBtn7.addEventListener("click", Show);
+    alertBtn7.addEventListener("click", Hide);
+  })();
+
+  (function () {
+    var alertBtn8 = document.getElementById("alertiBtn8"),
+      modAlert8 = document.getElementById("modAlert8"),
+      showBtn8 = document.getElementById("showBtn8");
+  
+    function Show() {
+      modAlert8.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlert8.classList.add("oculto");
+  
+    }
+  
+    showBtn8.addEventListener("click", Show);
+    alertBtn8.addEventListener("click", Hide);
+  })();
+
+  (function () {
+    var alertBtn9 = document.getElementById("alertiBtn9"),
+      modAlert9 = document.getElementById("modAlert9"),
+      showBtn9 = document.getElementById("showBtn9");
+  
+    function Show() {
+      modAlert9.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlert9.classList.add("oculto");
+  
+    }
+  
+    showBtn9.addEventListener("click", Show);
+    alertBtn9.addEventListener("click", Hide);
+  })();
+
+  (function () {
+    var alertBtn10 = document.getElementById("alertiBtn10"),
+      modAlert10 = document.getElementById("modAlert10"),
+      showBtn10 = document.getElementById("showBtn10");
+  
+    function Show() {
+      modAlert10.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlert10.classList.add("oculto");
+  
+    }
+  
+    showBtn10.addEventListener("click", Show);
+    alertBtn10.addEventListener("click", Hide);
+  })();
+
+  (function () {
+    var alertBtn11 = document.getElementById("alertiBtn11"),
+      modAlert11 = document.getElementById("modAlert11"),
+      showBtn11 = document.getElementById("showBtn11");
+  
+    function Show() {
+      modAlert11.classList.remove("oculto");
+    }
+  
+    function Hide() {
+      modAlert11.classList.add("oculto");
+  
+    }
+  
+    showBtn11.addEventListener("click", Show);
+    alertBtn11.addEventListener("click", Hide);
+  })();
   

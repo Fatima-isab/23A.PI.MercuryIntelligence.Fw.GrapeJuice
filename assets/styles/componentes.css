@@ -871,7 +871,8 @@ button span {
   display: none;
 }
 
-.alerti, .alerti1, .alerti2, .alerti3 {
+.alerti, .alerti1, .alerti2, .alerti3, .alerti4, .alerti5, .alerti6, .alerti7, .alerti8, .alerti9, .alerti10,
+.alerti11 {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -880,9 +881,11 @@ button span {
   background: rgba(235, 225, 239, 0.4);
 }
 /*para imagenes anchas*/
-.alerti .alertiBox {
+.alerti .alertiBox, .alerti4 .alertiBox4, .alerti5 .alertiBox5, .alerti6 .alertiBox6, .alerti7 .alertiBox7
+, .alerti8 .alertiBox8, .alerti9 .alertiBox9{
   position: relative;
   justify-content: center;
+  text-align: center;
   width: 65vw;
   height: 50vh;
   background: var(--gris);
@@ -892,7 +895,8 @@ button span {
 
 }
 /*para imagenes largas*/
-.alerti1 .alertiBox1, .alerti2 .alertiBox2, .alerti3 .alertiBox3 {
+.alerti1 .alertiBox1, .alerti2 .alertiBox2, .alerti3 .alertiBox3, .alerti10 .alertiBox10,
+ .alerti11 .alertiBox11 {
   position: relative;
   justify-content: center;
   width: 20vw;
@@ -903,7 +907,9 @@ button span {
   left: 40%;
 
 }
-.alerti #alertiBtn,.alerti1 #alertiBtn1, .alerti2 #alertiBtn2, .alerti3 #alertiBtn3 {
+.alerti #alertiBtn,.alerti1 #alertiBtn1, .alerti2 #alertiBtn2, .alerti3 #alertiBtn3, .alerti4 #alertiBtn4,
+.alerti5 #alertiBtn5,.alerti6 #alertiBtn6,.alerti7 #alertiBtn7,.alerti8 #alertiBtn8,.alerti9 #alertiBtn9
+,.alerti10 #alertiBtn10,.alerti11 #alertiBtn11{
   position: absolute;
   float: right;
   top: 2vh;
