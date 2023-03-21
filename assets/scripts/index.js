@@ -96,7 +96,7 @@ function toggleSidebar() {
   document.getElementById("sidebar1").classList.toggle("show");
   document.querySelector("button span").classList.toggle("rotate");
 }
-
+/*para ver codigo*/
 (function () {
   var alertBtn = document.getElementById("alertiBtn"),
     modAlert = document.getElementById("modAlert"),
@@ -115,6 +115,57 @@ function toggleSidebar() {
   alertBtn.addEventListener("click", Hide);
 
 
+})();
+(function () {
+  var alertBtn1 = document.getElementById("alertiBtn1"),
+    modAlert1 = document.getElementById("modAlert1"),
+    showBtn1 = document.getElementById("showBtn1");
+
+  function Show() {
+    modAlert1.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert1.classList.add("oculto");
+
+  }
+
+  showBtn1.addEventListener("click", Show);
+  alertBtn1.addEventListener("click", Hide);
+})();
+(function () {
+  var alertBtn2 = document.getElementById("alertiBtn2"),
+    modAlert2 = document.getElementById("modAlert2"),
+    showBtn2 = document.getElementById("showBtn2");
+
+  function Show() {
+    modAlert2.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert2.classList.add("oculto");
+
+  }
+
+  showBtn2.addEventListener("click", Show);
+  alertBtn2.addEventListener("click", Hide);
+})();
+(function () {
+  var alertBtn3 = document.getElementById("alertiBtn3"),
+    modAlert3 = document.getElementById("modAlert3"),
+    showBtn3 = document.getElementById("showBtn3");
+
+  function Show() {
+    modAlert3.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert3.classList.add("oculto");
+
+  }
+
+  showBtn3.addEventListener("click", Show);
+  alertBtn3.addEventListener("click", Hide);
 })();
 //Modo oscuro
 function darkMode() {

@@ -166,7 +166,7 @@ main{
     100%{background-position: 0 50%;}
 }
 #logoEquipo{
-    text-align: center;
+    text-align: center;  
 }
 #titulo{
     text-align: center;
@@ -201,9 +201,10 @@ main{
 .info .objetivo, .mision, .vision{
     font-family: Subtitulos;
     text-align: center;
+    font-size: 99%;
     border: solid rgb(63, 1, 63) 3px;
     width: 23%;
-    height: 580px;
+    height: 120%;
     border-radius: 10px;
     background-color: var(--Bajo);
     
