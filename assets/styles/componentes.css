@@ -43,6 +43,9 @@
   --fsizesubtitulos: 26px;
 
 }
+*{
+  scroll-behavior: smooth;
+}
 
 .tipo {
   justify-content: center;
