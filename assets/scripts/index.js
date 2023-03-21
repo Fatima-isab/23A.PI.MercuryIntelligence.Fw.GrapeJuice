@@ -167,6 +167,125 @@ function toggleSidebar() {
   showBtn3.addEventListener("click", Show);
   alertBtn3.addEventListener("click", Hide);
 })();
+(function () {
+  var alertBtn12 = document.getElementById("alertiBtn12"),
+    modAlert12 = document.getElementById("modAlert12"),
+    showBtn12 = document.getElementById("showBtn12");
+
+  function Show() {
+    modAlert12.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert12.classList.add("oculto");
+
+  }
+
+  showBtn12.addEventListener("click", Show);
+  alertBtn12.addEventListener("click", Hide);
+})();
+(function () {
+  var alertBtn13 = document.getElementById("alertiBtn13"),
+    modAlert13 = document.getElementById("modAlert13"),
+    showBtn13 = document.getElementById("showBtn13");
+
+  function Show() {
+    modAlert13.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert13.classList.add("oculto");
+
+  }
+
+  showBtn13.addEventListener("click", Show);
+  alertBtn13.addEventListener("click", Hide);
+})();
+(function () {
+  var alertBtn14 = document.getElementById("alertiBtn14"),
+    modAlert14 = document.getElementById("modAlert14"),
+    showBtn14 = document.getElementById("showBtn14");
+
+  function Show() {
+    modAlert14.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert14.classList.add("oculto");
+
+  }
+
+  showBtn14.addEventListener("click", Show);
+  alertBtn14.addEventListener("click", Hide);
+})();
+(function () {
+  var alertBtn15 = document.getElementById("alertiBtn15"),
+    modAlert15 = document.getElementById("modAlert15"),
+    showBtn15 = document.getElementById("showBtn15");
+
+  function Show() {
+    modAlert15.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert15.classList.add("oculto");
+
+  }
+
+  showBtn15.addEventListener("click", Show);
+  alertBtn15.addEventListener("click", Hide);
+})();
+(function () {
+  var alertBtn16 = document.getElementById("alertiBtn16"),
+    modAlert16 = document.getElementById("modAlert16"),
+    showBtn16 = document.getElementById("showBtn16");
+
+  function Show() {
+    modAlert16.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert16.classList.add("oculto");
+
+  }
+
+  showBtn16.addEventListener("click", Show);
+  alertBtn16.addEventListener("click", Hide);
+})();
+(function () {
+  var alertBtn17 = document.getElementById("alertiBtn17"),
+    modAlert17 = document.getElementById("modAlert17"),
+    showBtn17 = document.getElementById("showBtn17");
+
+  function Show() {
+    modAlert17.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert17.classList.add("oculto");
+
+  }
+
+  showBtn17.addEventListener("click", Show);
+  alertBtn17.addEventListener("click", Hide);
+})();
+(function () {
+  var alertBtn18 = document.getElementById("alertiBtn18"),
+    modAlert18 = document.getElementById("modAlert18"),
+    showBtn18 = document.getElementById("showBtn18");
+
+  function Show() {
+    modAlert18.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlert18.classList.add("oculto");
+
+  }
+
+  showBtn18.addEventListener("click", Show);
+  alertBtn18.addEventListener("click", Hide);
+})();
 //Modo oscuro
 //Modo oscuro
 
