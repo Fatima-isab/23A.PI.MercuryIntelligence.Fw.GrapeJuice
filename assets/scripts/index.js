@@ -117,6 +117,25 @@ function toggleSidebar() {
 
 })();
 (function () {
+  var alerticBtn = document.getElementById("alerticBtn"),
+    modAlertc = document.getElementById("modAlertc"),
+    showcBtn = document.getElementById("showcBtn");
+
+  function Show() {
+    modAlertc.classList.remove("oculto");
+  }
+
+  function Hide() {
+    modAlertc.classList.add("oculto");
+
+  }
+
+  showcBtn.addEventListener("click", Show);
+  alerticBtn.addEventListener("click", Hide);
+
+
+})();
+(function () {
   var alertBtn1 = document.getElementById("alertiBtn1"),
     modAlert1 = document.getElementById("modAlert1"),
     showBtn1 = document.getElementById("showBtn1");
@@ -286,10 +305,8 @@ function toggleSidebar() {
   showBtn18.addEventListener("click", Show);
   alertBtn18.addEventListener("click", Hide);
 })();
-//Modo oscuro
-//Modo oscuro
 
-
+//Modo oscuro
 function darkMode() {
   var element = document.body;
   element.className = "dark-mode";

@@ -292,8 +292,13 @@ footer p{
     font-size: 80px;
     color: var(--Fuerte);
     background-color: var(--Bajo);
-    border-radius: 50px;
+    border-radius: 100%;
     cursor: pointer;
+    width: 30px;
+    height:30px;
+    line-height:30px;
+    display:block;
+    text-align: center;
   }
   .sibe:hover{
     cursor: pointer;
@@ -319,7 +324,7 @@ footer p{
 }
 
 
-span {
+.span {
   width: 30px;
   height:30px;
   line-height:30px;
@@ -642,8 +647,8 @@ span {
 
 /*Desktop*/
 @media screen and (min-width: 1000px ) {
-    .icon-menu{
-    
+    .codigoResponsive{
+        display: none;
     }
 }
 
@@ -738,6 +743,16 @@ span {
     #imagen{
         display: none;
     }
+    .codigo {
+       display: none;
+      }
+      
+      .mdl-action {
+       display: none;
+      }
+      #hrbtn{
+        display: none;
+      }
     footer{
         justify-content: center;
         margin-top: 30%;
@@ -761,6 +776,9 @@ span {
         justify-content: center;
         margin-top: 5%;
         margin-bottom: 2%;
+    }
+    .codigoResponsive{
+        margin-top: 5%;
     }
 }
 
@@ -879,6 +897,16 @@ span {
     #imagen{
         display: none;
     }
+    .codigo {
+        display: none;
+      }
+      
+      .mdl-action {
+        display: none;
+      }
+      #hrbtn{
+        display: none;
+      }
     footer{
         justify-content: center;
         margin-top: 30%;
@@ -902,6 +930,9 @@ span {
         justify-content: center;
         margin-top: 5%;
         margin-bottom: 2%;
+    }
+    .codigoResponsive{
+        margin-top: 5%;
     }
 }
    

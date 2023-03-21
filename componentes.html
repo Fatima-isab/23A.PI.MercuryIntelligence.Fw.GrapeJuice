@@ -27,8 +27,8 @@ FLORES DE LA TORRE SAÚL
 <body>
     <span id="btnUp" class="material-icons">arrow_upward</span>
     <button class="switch" id="switch">
-        <span class="dark material-icons" onclick="darkMode()">bedtime</span>
-        <span class="light material-icons" onclick="lightMode()">sunny</span>
+        <span class="dark span material-icons" onclick="darkMode()">bedtime</span>
+        <span class="light span material-icons" onclick="lightMode()">sunny</span>
     </button>
     <header class="header">
         <div>
@@ -467,23 +467,7 @@ FLORES DE LA TORRE SAÚL
                 <button class="redondoBtn" id="redondoVerde">Verde</button>
             </div>
             <br>
-            <article class="codigo">
-                <p>Presione para ver el codigo</p>
-                <div id="showBtn">
-                    <spam class="icon-circle-down mdl-action"></spam>
-                </div>
-            </article>
-
-            <div class="alerti oculto" id="modAlert">
-                <div class="alertiBox">
-                    <div id="alertiTxt">
-                        <img src="./assets/img/codigo/botones redondos.png" id="imgCod" style="width: 800px;">
-                    </div>
-                    <div id="alertiBtn">
-                        <span class="icon-cross"></span>
-                    </div>
-                </div>
-            </div>
+            
             <h3 id="sub">Botones cuadrados</h3>
             <br>
             <div class="botones">
@@ -497,6 +481,40 @@ FLORES DE LA TORRE SAÚL
             </div>
         </div>
         <br>
+        <article class="codigo">
+            <p>Presione para ver el codigo botones redondos</p>
+            <div id="showBtn">
+                <spam class="icon-circle-down mdl-action"></spam>
+            </div>
+        </article>
+        <hr color="#664187" size="2" style="border-style:double;" id="hrbtn">
+        <div class="alerti oculto" id="modAlert">
+            <div class="alertiBox">
+                <div id="alertiTxt">
+                    <img src="./assets/img/codigo/botones redondos.png" id="imgCod" style="width: 800px;">
+                </div>
+                <div id="alertiBtn">
+                    <span class="icon-cross"></span>
+                </div>
+            </div>
+        </div>
+
+        <article class="codigo">
+            <p>Presione para ver el codigo botones cuadrados</p>
+            <div id="showcBtn">
+                <spam class="icon-circle-down mdl-action"></spam>
+            </div>
+        </article>
+        <div class="alertic oculto" id="modAlertc">
+            <div class="alerticBox">
+                <div id="alerticTxt">
+                    <img src="./assets/img/codigo/botonescuadrados.png" id="imgCod" style="width: 800px;">
+                </div>
+                <div id="alerticBtn">
+                    <span class="icon-cross"></span>
+                </div>
+            </div>
+        </div>
 
         <!-- Entradas de datos -->
         <h1 id="datoss"></h1>
@@ -932,7 +950,7 @@ FLORES DE LA TORRE SAÚL
             </div>
         </div>
 
-
+        <p class="codigoResponsive" id="pHead">Para vizualizar los códigos abre la página en el escritorio</p>
 
         <footer>
             <p>Mercury Intelligence Group. Copyriht @ 2023 All rights reserved.</p>
